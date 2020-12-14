@@ -1,4 +1,4 @@
-'use script';
+"use strict";
 
 const countTotalSalary = function(employees) {
   let total = 0;

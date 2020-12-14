@@ -1,4 +1,4 @@
-'use script';
+"use strict";
 
 const findBestEmployee = function(employees) {
     let max = 0;
