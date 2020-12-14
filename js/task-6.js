@@ -11,7 +11,7 @@ const calculateTotalPrice = function(allProdcuts, productName) {
     let total = 0;
 
     for (const product of allProdcuts) {
-        let name = product.name;
+        const name = product.name;
         if (productName === name) {
             total = product.price * product.quantity;
         }
